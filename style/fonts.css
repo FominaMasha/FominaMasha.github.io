@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/GraphikLCG-Medium.eot');
+  src: url('../fonts/GraphikLCG-Medium.woff') format('woff'),
+       url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+       url('../fonts/GraphikLCG-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Root';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/pt-root-ui_bold.ttf') format('truetype');
+}

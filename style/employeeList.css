@@ -1,0 +1,38 @@
+.employee {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.employee + .employee {
+  margin-top: 10px;
+}
+
+.employee-name {
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.employee-groups {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.employee-groups .group {
+  display: inline-block;
+  background-color: #7C5BFF;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.employee-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,23 @@
+
+@import url("./fonts.css");
+@import url("./colors.css");
+@import url("./layout.css");
+@import url("./text.css");
+@import url("./button.css");
+@import url("./accordion.css");
+@import url("./p-hero.css");
+@import url("./employeeList.css");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #1A1B1C;
+  background-color: #fff;
+  font-family: 'Graphik';
+}
+
+body * {
+  box-sizing: border-box;
+}

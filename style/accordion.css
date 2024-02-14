@@ -1,0 +1,29 @@
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each accordion item */
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Style for the accordion item header */
+.accordion-item__header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Style for the accordion item content */
+.accordion-item__content {
+  display: none;
+  padding: 10px;
+}
+
+/* Style for the active accordion item */
+.accordion-item.active .accordion-item__content {
+  display: block;
+}

@@ -1,0 +1,13 @@
+.p-hero {
+  text-align: center;
+
+}
+
+.p-hero__title {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.p-hero__btn {
+  display: block;
+}

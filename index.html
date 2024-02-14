@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>JetStyle assistant</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <h1 class="title-1">JetStyle</h1>
+
+        <div class="user-card">
+          <div class="user-card__avatar">
+            <!-- <img src="images/avatar.jpg" alt="User avatar" /> -->
+          </div>
+          <div class="user-card__info">
+            <div class="user-card__name" id="uerName">John Doe</div>
+            <div class="user-card__position">Frontend developer</div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-item__header">Пользователи</div>
+            <div class="accordion-item__content">
+              <ul class="employee-list">
+                <li class="employee">
+                  <div class="employee-name">John Doe</div>
+                  <div class="employee-groups">
+                    <span class="group">Group 1</span>
+                    <span class="group">Group 2</span>
+                  </div>
+                </li>
+                <li class="employee">
+                  <div class="employee-name">Jane Smith</div>
+                  <div class="employee-groups">
+                    <span class="group">Group 1</span>
+                    <span class="group">Group 3</span>
+                  </div>
+                </li>
+                <!-- Add more employees here -->
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item__header">Чаты</div>
+            <div class="accordion-item__content">Список чатов</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
